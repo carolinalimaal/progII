@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
-        Questão 3
+        //Questão 3
         System.out.print("Digite um número: ");
         int num1 = input.nextInt();
 
@@ -18,14 +18,14 @@ public class App {
             System.out.println(num2);
         }
 
-        Questão 4
+        //Questão 4
         System.out.print("Digite um número: ");
         int numero = input.nextInt();
         for (int i = numero; i >= 0; i--){
             System.out.println(i);
         }
 
-        Questão 5
+        //Questão 5
         int soma = 0;
         long produto = 1;
         for (int i = 1; i <= 30; i++){
@@ -38,7 +38,7 @@ public class App {
         System.out.println(" Soma dos ímpares: " + soma);
         System.out.println("Produto dos pares: " + produto);
 
-        Questão 6
+        //Questão 6
         int a = 2;
         int b = 5;
         int temp = a;
